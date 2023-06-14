@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+body{
+    background-color: #1a1917;
+}
+.header{
+    position: relative;
+}
+.nav-header{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo{
+    color: #e5e4df;
+}
+.nav-logo h1{
+    font-size: 20px;
+}
+.nav-header ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+}
+.nav-header ul li a{
+    text-decoration: none;
+    color: #e5e4df;
+    padding: 10px;
+    border: 2px solid #e5e4df;
+    border-radius: 30px;
+    font-family: 'Inter', sans-serif;
+}
+.nav-header ul li a:hover{
+    background-color: #e5e4df;
+    color: #1a1917;
+}
+.self-introduce{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.self-introduce h1{
+    font-size: 50px;
+    color: #e5e4df;
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 40%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 2s, left 1s;
+}
+.images:hover .shapes{
+    bottom: 100px;
+}
+.images:hover .my-images{
+    left: 100px;
+}
+.describe-self-title{
+    margin-top: 5%;
+}
+.describe-self-title h1{
+    font-size: 50px;
+    color: #e5e4df;
+    text-align: center;
+}
+.describe-self-title p{
+    line-height: 30px;
+    font-size: 25px;
+    color: #e5e4df;
+    text-align: justify;
+    text-align-last: center;
+}
+.my-portfolio{
+    text-align: center;
+    margin-top: 5%;
+}
+.my-portfolio h1{
+    font-size: 50px;
+    color: #e5e4df;
+}
+.my-contact{
+    text-align: center;
+    margin-top: 10%;
+}
+.my-contact h1{
+    font-size: 50px;
+    color: #e5e4df;
+}
+.my-contact p{
+    line-height: 40px;
+    font-size: 25px;
+    color: #e5e4df;
+    text-align: justify;
+    text-align-last: center;
+}
+.my-contact p a{
+    text-decoration: none;
+    color: #e5e4df;
+    border-bottom: 2px solid #e5e4df;
+}
